@@ -10,7 +10,7 @@ approaches rely primarily on powerful desktop environments for inference, our me
 mobile phone, and even scales to multiple hands. We hope that providing this hand perception functionality to the wider research and development 
 community will result in an emergence of creative use cases, stimulating new applications and new research avenues.
 
-# Hand Landmark Model
+## Hand Landmark Model
 After the palm detection over the whole image our subsequent hand landmark model performs precise keypoint localization of 21 3D hand-knuckle coordinates
 inside the detected hand regions via regression, that is direct coordinate prediction. The model learns a consistent internal hand pose
 representation and is robust even to partially visible hands and self-occlusions.
@@ -22,3 +22,8 @@ additional supervision on the nature of hand geometry, we also render a high-qua
 
 ![handmarks](https://user-images.githubusercontent.com/81274360/123642095-346dd400-d823-11eb-993a-8d230d114eeb.PNG)
 
+
+
+The results are shown in the following figure
+
+![adasda](https://user-images.githubusercontent.com/81274360/123644301-8adc1200-d825-11eb-8656-dfd4d95bf74b.PNG)
